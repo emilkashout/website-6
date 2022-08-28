@@ -1,0 +1,176 @@
+.profileselfie {
+    width: 60%;
+    margin-left: 5vw;
+}
+.collage {
+    width: 80%;
+    border: #fba38b 2em solid;
+    margin-left: 5vw;
+}
+nav {
+    text-align: right;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    font-family: 'DM Serif Display', serif;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #fba38b;
+}
+a:active {
+    color: #f7896b;
+}
+h1 {
+    position: fixed;
+    font-size: 15vw;
+    transform-origin: top left;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    transform: rotate(-90deg) translateX(-100%);
+    font-family: 'DM Serif Display', serif;
+}
+h2 {
+    margin-left: 8.5vw;
+    margin-bottom: 0;
+    font-size: 2.5vw;
+    font-family: 'DM Serif Display', serif;
+}
+.hithere {
+    font-size: 7vw;
+    margin-top: 4vw;
+    margin-left: 11vw;
+    font-family: 'DM Serif Display', serif;
+    color: #fba38b;
+}
+main {
+    margin-left: 17vw;
+}
+body {
+    margin: 0 auto;
+}
+p {
+    font-size: 1.7vw;
+    margin-left: 7.5vw;
+    margin-right: 10vw;
+    font-family: 'Outfit', sans-serif;
+}
+.profilegrid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.pname {
+    font-size: 3.5vw;
+    margin-left: 8.5vw;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-family: 'DM Serif Display', serif;
+}
+.pprofile {
+    font-size: 1.7vw;
+    margin-left: 7.5vw;
+    margin-top: 0;
+    margin-right: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.interestgrid {
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+}
+.section {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+.hidden {
+    opacity: 0;
+}
+footer p {
+color: #8d8d8d;
+align-items: center;
+text-align: center;
+margin-top: 3em;
+font-size: 1.2vw;
+}
+.logo {
+    width: 15vw;
+    position: absolute;
+    right: 62vw;
+    top: 2vw;
+}
+
+@media (max-width: 1000px) {
+    .profileselfie {
+        width: 95%;
+        margin-left: 3vw;
+    }
+    .collage {
+        width: 92%;
+        border: #fba38b 10px solid;
+        margin-left: 3vw;
+    }
+    nav {
+        font-size: 8vw;
+        margin-right: 3vw;
+    }
+    h1 {
+        font-size: 20vw;
+    }
+    h2 {
+        margin-left: 12vw;
+        font-size: 6.5vw;
+    }
+    .hithere {
+        font-size: 15vw;
+        margin-top: 7vw;
+        margin-left: 14vw;
+    }
+    main {
+        margin-left: 18vw;
+    }
+    p {
+        font-size: 5vw;
+        margin-left: 10vw;
+        margin-right: 7vw;
+    }
+    .profilegrid {
+        display:inherit;
+    }
+    .pname {
+        font-size: 7vw;
+        margin-left: 12vw;
+        margin-bottom: 0;
+    }
+    .pprofile {
+        font-size: 5vw;
+        margin-left: 10vw;
+        margin-top: 0;
+        margin-right: 7vw;
+    }
+    footer p {
+        color: #8d8d8d;
+        align-items: center;
+        text-align: center;
+        margin-top: 3em;
+        font-size: 2.5vw;
+        }
+        .logo {
+            width: 27vw;
+            position: absolute;
+            right: 48vw;
+            top: 4vw;
+        }
+}

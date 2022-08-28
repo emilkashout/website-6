@@ -1,0 +1,141 @@
+.homebackground {
+    background-image: url("photos/homebackground.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+h1 {
+    font-size:10vmax;
+    margin-bottom: 2vmax;
+    color: #fef8f2;
+    margin-top: 0;
+    font-family: 'DM Serif Display', serif;
+}
+.h1projects {
+    color: #3f2d39;
+}
+nav {
+    font-size: 4vmax;
+    font-family: 'DM Serif Display', serif;
+}
+.projectsnav {
+    background-color: #d84c4b;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #fef8f2;
+    font-family: 'DM Serif Display', serif;
+}
+.whiterectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.aspacenavhome {
+    padding: 3vw;
+}
+a:hover {
+    text-decoration: underline; 
+}
+.web {
+    color: #d84c4b;
+}
+a.web:hover {
+    color: #eb8c8c;
+    text-decoration: none;
+}
+a.web:active {
+    color:#ac2929;
+}
+.ux {
+    color: #9f504c;
+}
+a.ux:hover {
+    color: #d19591;
+    text-decoration: none;
+}
+a.ux:active {
+    color: #883430;
+}
+.animation{
+    color: #c1776e;
+}
+a.animation:hover {
+    color: #f1bcb5;
+    text-decoration: none;
+}
+a.animation:active {
+    color: #9e493e;
+}
+.content {
+    color: #ca9784;
+}
+a.content:hover {
+    color: #e6c3b6;
+    text-decoration: none;
+}
+a.content:active {
+    color: #a86953;
+}
+/*so that the word portfolio and nav bar is in the middle*/
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+/*about and projects are in column not next to each other*/
+.columndisplay {
+    display:flex;
+    flex-direction: column;
+}
+footer {
+    color: #eee9e5;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.2vw;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-family: 'Outfit', sans-serif;
+}
+.projectsfooter {
+    background-color: #d84c4b;
+}
+.logo {
+    width: 9.5vw;
+    position: absolute;
+    right: 89vw;
+    top: 0.2vw;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        font-size: 2.5vw;
+    }
+    .logo {
+        width: 13vw;
+        position: absolute;
+        right: 85vw;
+        top: 0.4vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: 19vw;
+        position: absolute;
+        right: 79vw;
+        top: 0.7vw;
+    }
+}
